@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 #plt.ylabel('some numbers')
 #plt.show()
 
-sleepfile = 'sleepdata.csv'
+sleepfile = '../Data/sleepdata.csv'
 with open(sleepfile) as csv_file:
 	reader = csv.reader(csv_file, delimiter= ';')
 
